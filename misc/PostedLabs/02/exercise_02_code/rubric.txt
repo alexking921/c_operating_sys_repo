@@ -1,0 +1,25 @@
+put the script "grade.sh" into the same folder with list.c
+
+run the script by "sh grade.sh"
+
+the expected result is:
+1 2 6 10
+2 2 6 10
+2 3 6 10
+2 6 7 10
+2 6 10 11
+
+compilation success gives 2 points and each test case gives 1 points
+
+
+
+
+[50]-> [60] -> [70]
+
+Inserting:  [40].  CASE: key < head.x
+
+
+IF this IS the case, --- then we want to:
+
+Assign insertingNode to point to head like so:     myNode->next = head
+AND we DONT want to return head like w the other scenarios bc that's no longer the 'head' of the list
